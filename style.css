@@ -1,0 +1,178 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #e9edee;
+  margin: 0px;
+}
+
+/*HEADER*/
+
+header {
+  background-color: #222f3f;
+}
+
+header img {
+  width: 8%;
+  padding-bottom: 16px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+  background-color: #364759;
+}
+nav a {
+  text-decoration: none;
+  justify-content: left;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+}
+
+/*SECTION*/
+
+section {
+  background-color: #f46507;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/*MAIN*/
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+section + div {
+  background-image: url(assets/bg-image.png);
+
+  background-position-x: center;
+  margin: auto;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  height: 200px;
+}
+
+div > p {
+  font-weight: bolder;
+  font-size: 30px;
+  padding-top: 48px;
+  text-align: center;
+  padding-bottom: 0 px;
+}
+
+p + p {
+  font-size: 20px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*DIV UNO*/
+
+.uno {
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.uno img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 60px;
+  padding-left: 55px;
+  padding-top: 20px;
+}
+
+span a {
+  text-decoration: none;
+  color: #22606b;
+  font-size: 9 px;
+}
+
+.uno p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+span {
+  font-size: 24px;
+  text-decoration: none;
+  color: #22606b;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-bottom: 20px;
+}
+
+.container-img {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 10px 9px 24px #e2e2eb;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 364px;
+  height: 400px;
+}
+
+/*DIV DUE*/
+
+.due {
+  margin-top: 40px;
+}
+
+main div img {
+  width: 100%;
+}
+
+.due h4 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+/*SECTION*/
+aside {
+  background-color: #364759;
+  padding-bottom: 20px;
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+aside a {
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222f3f;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+  width: 15%;
+  text-align: center;
+}
